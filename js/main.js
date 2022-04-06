@@ -146,7 +146,7 @@ let slideIndex = 0;
 let slideIndex2 = 0;
 let slideIndex3 = 0;
 let slideIndex4 = 0;
-fetch('js/menu.json')
+fetch('https://run.mocky.io/v3/2ab15c91-c1ca-4ed9-862b-46988b5cb5e2')
 .then( res => res.text() )
 .then( datos => {
     menu = JSON.parse(datos)
